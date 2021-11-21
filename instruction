@@ -1,0 +1,8 @@
+1) npx hardhat run scripts/deploy.js --network ropsten
+nftMarket deployed to: 0x5a5191A9eB9bD4C318f6aC456a6cE07561DD63D3
+nft deployed to: 0xAF74fd9204E696a1746FEcC6fBF3cBEA0c9642Ea
+
+2) 
+2.1) npx hardhat verify --network ropsten 0x5a5191A9eB9bD4C318f6aC456a6cE07561DD63D3
+
+2.2) npx hardhat verify --network ropsten 0xAF74fd9204E696a1746FEcC6fBF3cBEA0c9642Ea "0x5a5191A9eB9bD4C318f6aC456a6cE07561DD63D3"
